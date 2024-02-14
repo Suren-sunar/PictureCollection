@@ -49,14 +49,14 @@ const App = () => {
 
         {loading && <p>Loading...</p>}
 
-        <div className="Images">
-          {images.map((image) => (
-            <img
-              key={image.id}
-              src={image.urls.small}
-              alt={image.alt_description}
-              className="image"
-            />
+            <div className="Images">
+            {images.map((image) => (
+                <img
+                key={image.id}
+                src={image.urls.small}
+                alt=''
+                className="image"
+                />
           ))}
         </div>
       </Container>
