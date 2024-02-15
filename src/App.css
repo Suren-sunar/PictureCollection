@@ -1,15 +1,19 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-form{
-   text-align: center;
-   margin: 50px;
-   padding: 50px;
-  
-   
+
+body {
+    overflow-x: hidden; 
 }
-input{
+
+form {
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+}
+
+input {
     width: 300px;
     padding: 15px;
     font-size: large;
@@ -18,29 +22,32 @@ input{
     display: inline-block;
 }
 
-button{
+button {
     margin: 10px;
     padding: 15px;
     font-size: larger;
     border-radius: 10px;
-    background-color:#4CAF50;
+    background-color: #4CAF50;
     border: none;
 }
-img{
-   object-fit: cover;
+
+img {
+    object-fit: cover;
     margin: 30px;
     padding: 30px;
-    width:380px;
+    width: 380px;
     height: 500px;
 }
-p{
+
+p {
     text-align: center;
     font-size: 35px;
 }
+
 @media (max-width: 768px) {
     img {
-        width: 90%; 
-        max-height: none; 
+        width: 90%;
+        max-height: none;
     }
 
     form {
@@ -56,9 +63,8 @@ p{
 }
 
 @media (min-width: 800px) and (max-width: 950px) {
-    
     img {
         width: 600px;
-        max-height: 500px; 
+        max-height: 500px;
     }
 }
