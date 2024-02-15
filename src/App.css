@@ -27,7 +27,7 @@ button{
     border: none;
 }
 img{
-   
+   object-fit: cover;
     margin: 30px;
     padding: 30px;
     width:380px;
