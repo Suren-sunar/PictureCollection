@@ -47,7 +47,7 @@ const App = () => {
           </div>
         </form>
 
-        {loading && <p>Loading...</p>}
+        {loading && <p>Loading....</p>}
 
             <div className="Images">
             {images.map((image) => (
